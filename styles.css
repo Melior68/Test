@@ -1,0 +1,60 @@
+/* Estilos gerais */
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    color: white;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column; /* Ajusta a disposição dos elementos */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1.question {
+    margin-top: 20px; /* Espaço acima da mensagem */
+}
+
+.gif-container {
+    position: relative;
+    text-align: center; /* Centraliza o conteúdo dentro do div */
+    margin-bottom: 20px; /* Espaço abaixo do GIF */
+}
+
+.gif-container img {
+    max-width: 100%;
+    height: auto;
+    max-height: 200px; /* Ajuste conforme necessário */
+}
+
+.buttons-container {
+    text-align: center; /* Centraliza os botões */
+}
+
+.buttons-container .button-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.buttons-container button {
+    width: 60px; /* Define uma largura fixa para os botões */
+    height: 60px; /* Define uma altura fixa para os botões */
+    margin: 10px; /* Espaço ao redor dos botões */
+    padding: 0; /* Remove o preenchimento interno para centralizar o texto */
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 50%; /* Transforma os botões em redondos */
+    border: none; /* Remove a borda */
+    background-color: #ffffff; /* Cor de fundo */
+    color: #000000; /* Cor do texto */
+    position: relative; /* Garante que a posição seja relativa */
+    text-align: center; /* Centraliza o texto horizontalmente */
+    display: flex; /* Permite alinhar verticalmente */
+    align-items: center; /* Centraliza verticalmente */
+    justify-content: center; /* Centraliza horizontalmente */
+    transition: transform 0.3s ease; /* Adiciona uma transição suave */
+}
